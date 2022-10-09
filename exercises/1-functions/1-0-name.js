@@ -62,15 +62,15 @@ function drawName() {
  context.lineWidth = 6
  context.strokeStyle = "red"
  context.beginPath();
-context.fillStyle = "yellow";
-context.rect(50, 50, 100, 100);
-context.fill();
-context.stroke()
+ context.fillStyle = "yellow";
+ context.rect(50, 50, 100, 100);
+ context.fill();
+ context.stroke()
 
-context.beginPath()
-context.fillStyle = "blue";
-context.rect(200, 50, 100, 100);
-context.fill();
+ context.beginPath()
+ context.fillStyle = "blue";
+ context.rect(200, 50, 100, 100);
+ context.fill();
 
 
  }
