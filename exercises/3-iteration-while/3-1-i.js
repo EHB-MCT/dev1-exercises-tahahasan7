@@ -17,11 +17,11 @@ function drawMultipleConcentricCircles() {
     let i = 0;
     while (i <= 10) {
         let size = i * 15;
-        Utils.strokeCircle(200, 200, size);
-        Utils.strokeCircle(, , size);
-        Utils.strokeCircle(, , size);
-        Utils.strokeCircle(, , size);
-        Utils.strokeCircle(, , size);
-        i = ;
+        Utils.strokeCircle(200, 200, size,0, Math. PI *2);
+        Utils.strokeCircle(50,50 , size,0, Math. PI *2);
+        Utils.strokeCircle(50,350 , size,0, Math. PI *2);
+        Utils.strokeCircle(350,50 , size,0, Math. PI *2);
+        Utils.strokeCircle(350,350 , size,0, Math. PI *2);
+        i++
     }
 }

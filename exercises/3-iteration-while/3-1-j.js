@@ -14,12 +14,12 @@ function draw() {
 
 function drawConcentricPattern() {
     context.lineWidth = 2;
-    let i = ;
-    while () {
-        let size = ;
-        Utils.strokeCircle(, , size);
-        Utils.strokeCircle(, , size);
-        Utils.strokeCircle(, , size);
-        i = ;
+    let i = 0
+    while (i<10) {
+        let size = i*17
+        Utils.strokeCircle(200,200 , size,0, Math. PI *2);
+        Utils.strokeCircle(100,200 , size,0, Math. PI *2);
+        Utils.strokeCircle(300,200 , size,0, Math. PI *2);
+        i ++
     }
 }
