@@ -13,11 +13,12 @@ function draw() {
 }
 
 function drawGradient() {
-    let i = 0;
-    while (i <= ) {
-        let gray = ;
+    let i = 0
+    while (i <= 300) {
+        console.log(Utils.rgb)
+        let gray = i/ 300* 225
         context.strokeStyle = Utils.rgb(gray, gray, gray);
-        Utils.drawLine(, , , );
+        Utils.drawLine(50+i,50 ,50 +i ,350 );
         i++;
     }
 }

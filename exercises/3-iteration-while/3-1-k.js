@@ -14,9 +14,9 @@ function draw() {
 
 function drawSunBeams() {
     let i = 50;
-    while (i <= ) {
-        Utils.drawLine(, , , , );
-        Utils.drawLine(, , , , );
+    while (i <= 350) {
+        Utils.drawLine(50, 50, 350, + i);
+        Utils.drawLine(50,50, i, 350);
         i = i + 10;
     }
 }
